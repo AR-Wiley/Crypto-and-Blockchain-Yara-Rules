@@ -3,7 +3,7 @@ rule MultiBit_Bitcoin_Blockchain_File {
         meta:
                 author = "AR Wiley"
                 description = "Check for MulitBit Lightweight Bitcoin Wallet"
-                date = 9/23/25
+                date = "9/23/25"
 
         strings:
                 $s = { 53 50 56 42 }
