@@ -6,7 +6,7 @@ rule Bitcoin_Core_Wallet {
                 date = "2025-10-05"
 
         strings:
-                $s = { 	00 00 00 00 62 31 05 00 09 00 00 00 00 20 00 00 00 09 00 00 00 00 00 00 }
+                $s = { 00 00 00 00 62 31 05 00 09 00 00 00 00 20 00 00 00 09 00 00 00 00 00 00 }
                 $s1 = "~/Library/Application Support/Bitcoin/"
                 $s2 = "~/.bitcoin/"
                 $s3 = "\\AppData\\Roaming\\Bitcoin\\" nocase
@@ -22,5 +22,6 @@ rule Bitcoin_Core_Wallet {
 
 
 }
+
 
 
