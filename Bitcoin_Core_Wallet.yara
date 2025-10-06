@@ -1,4 +1,4 @@
-rule Bitcoin Core wallet {
+rule Bitcoin-Core-Wallet {
 
         meta:
                 author = "AR Wiley"
@@ -22,3 +22,4 @@ rule Bitcoin Core wallet {
 
 
 }
+
